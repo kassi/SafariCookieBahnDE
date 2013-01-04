@@ -18,6 +18,13 @@ Basically you just run the program.
 
 A better way of course is to not run it manually but automatically - and regularly.
 So you want to create a LaunchAgent that runs the script once you log in.
+So head for installation...
+
+# Installation
+
+Clone the project, open it in xcode (my version 4.3.2) and Build it.
+
+This should copy the executable to /usr/local/bin and the LaunchAgent property list the appropriate user's directory.
 
 # Author
 
