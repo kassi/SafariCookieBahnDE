@@ -29,7 +29,7 @@
 		CB16010E16977D7B00C0FFFE /* SafariCookieBahnDE */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SafariCookieBahnDE; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB16011216977D7B00C0FFFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CB16011516977D7B00C0FFFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CB16011816977D7B00C0FFFE /* SafariCookieBahnDE-Prefix.pch */ = {isa = PBXFileReference; path = "SafariCookieBahnDE-Prefix.pch"; sourceTree = "<group>"; };
+		CB16011816977D7B00C0FFFE /* SafariCookieBahnDE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SafariCookieBahnDE-Prefix.pch"; sourceTree = "<group>"; };
 		CB16011916977D7B00C0FFFE /* SafariCookieBahnDE.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SafariCookieBahnDE.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
