@@ -31,6 +31,7 @@
 		CB16011516977D7B00C0FFFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CB16011816977D7B00C0FFFE /* SafariCookieBahnDE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SafariCookieBahnDE-Prefix.pch"; sourceTree = "<group>"; };
 		CB16011916977D7B00C0FFFE /* SafariCookieBahnDE.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SafariCookieBahnDE.1; sourceTree = "<group>"; };
+		CB1601261697894500C0FFFE /* de.kluks.SafariCookieBahnDE.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = de.kluks.SafariCookieBahnDE.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +51,7 @@
 			children = (
 				CB16011416977D7B00C0FFFE /* SafariCookieBahnDE */,
 				CB16011116977D7B00C0FFFE /* Frameworks */,
+				CB1601241697890C00C0FFFE /* LaunchAgents */,
 				CB16010F16977D7B00C0FFFE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,6 +88,14 @@
 				CB16011816977D7B00C0FFFE /* SafariCookieBahnDE-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB1601241697890C00C0FFFE /* LaunchAgents */ = {
+			isa = PBXGroup;
+			children = (
+				CB1601261697894500C0FFFE /* de.kluks.SafariCookieBahnDE.plist */,
+			);
+			name = LaunchAgents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +162,8 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = NO;
+				DEPLOYMENT_POSTPROCESSING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -166,6 +178,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -180,6 +193,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = NO;
+				DEPLOYMENT_POSTPROCESSING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -187,6 +202,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
 			};
@@ -195,18 +211,26 @@
 		CB16011E16977D7B00C0FFFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SafariCookieBahnDE/SafariCookieBahnDE-Prefix.pch";
+				INSTALL_PATH = /usr/local/bin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
 			};
 			name = Debug;
 		};
 		CB16011F16977D7B00C0FFFE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SafariCookieBahnDE/SafariCookieBahnDE-Prefix.pch";
+				INSTALL_PATH = /usr/local/bin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
 			};
 			name = Release;
 		};
@@ -229,6 +253,7 @@
 				CB16011F16977D7B00C0FFFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
