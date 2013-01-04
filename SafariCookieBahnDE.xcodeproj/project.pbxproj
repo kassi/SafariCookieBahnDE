@@ -32,6 +32,7 @@
 		CB16011816977D7B00C0FFFE /* SafariCookieBahnDE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SafariCookieBahnDE-Prefix.pch"; sourceTree = "<group>"; };
 		CB16011916977D7B00C0FFFE /* SafariCookieBahnDE.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SafariCookieBahnDE.1; sourceTree = "<group>"; };
 		CB1601261697894500C0FFFE /* de.kluks.SafariCookieBahnDE.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = de.kluks.SafariCookieBahnDE.plist; sourceTree = "<group>"; };
+		CBD9B5E71697A30000AD802F /* README.md */ = {isa = PBXFileReference; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +50,7 @@
 		CB16010316977D7B00C0FFFE = {
 			isa = PBXGroup;
 			children = (
+				CBD9B5E71697A30000AD802F /* README.md */,
 				CB16011416977D7B00C0FFFE /* SafariCookieBahnDE */,
 				CB16011116977D7B00C0FFFE /* Frameworks */,
 				CB1601241697890C00C0FFFE /* LaunchAgents */,
