@@ -6,7 +6,7 @@
         <string>de.kluks.SafariCookieBahnDE</string>
         <key>ProgramArguments</key>
         <array>
-            <string>/usr/local/bin/SafariCookieBahnDE</string>
+            <string>/Users/Kassi/bin/SafariCookieBahnDE</string>
         </array>
         <key>RunAtLoad</key>
         <true/>
